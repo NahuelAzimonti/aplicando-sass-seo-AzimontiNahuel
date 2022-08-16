@@ -1,0 +1,10 @@
+@import "./extends";
+header {
+    div.flex_logo {
+        @extend %flex;
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
